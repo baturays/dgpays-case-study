@@ -1,0 +1,22 @@
+.appContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContentContainer {
+    margin: 100px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.invalidFieldLabel {
+    display: block;
+    margin-top: 15px;
+}
