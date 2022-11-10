@@ -41,7 +41,7 @@ export default function App() {
       let deliveryDate = cells.item(2).textContent
 
       caseDate && (caseDate = new Date(caseDate))
-      deliveryDate ? deliveryDate = new Date(deliveryDate) : deliveryDate = new Date()
+      deliveryDate ? deliveryDate = new Date(deliveryDate) : deliveryDate = today
       const dateDiffInDays = datediff(caseDate, deliveryDate)
       if (dateDiffInDays > limit && !isBackgroundColorRed) { //Check if Delivery date is passed,but its not marked.
         row.style.border = "solid thick blue"
