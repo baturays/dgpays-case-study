@@ -16,7 +16,7 @@ interface Props {
 export type Ref = HTMLTableElement;
 
 const Grid = forwardRef<Ref, Props>((props,ref) => {
-    const sourceData = props.source
+    const sourceData = props.source 
 
     return <table id="sourceData" ref={ref}>
                 <tbody>
